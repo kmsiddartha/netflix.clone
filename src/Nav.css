@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    top: 0;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.navlogo{
+    object-fit: contain;
+    width: 100px;
+    position: relative;
+    bottom: 10px;
+}
+.acclogo{
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+    width: 35px;
+    bottom: 100px;
+}
+.navblack{
+    background-color: #000;
+    height: 50px;
+}

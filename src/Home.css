@@ -1,0 +1,68 @@
+
+.homecont{
+    padding-top: 200px;
+}
+
+.homecont>h1{
+    color: white;
+    font-size: 3.5rem;
+}
+.homecont>h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+.home{
+    text-align: center;
+    object-fit: contain;
+    
+}
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    top: 0;
+    justify-content: space-between;
+    padding: 15px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.navlogo{
+    object-fit: contain;
+    width: 100px;
+    position: fixed;
+    left: 30px;
+    top: 20px;
+}
+.acclogo{
+    object-fit: contain;
+    position: fixed;
+    right: 30px;
+    width: 35px;
+    top: 20px;
+}
+.navblack{
+    background-color: #000;
+    height: 30px;
+}
+
+.button{
+    margin-top: 30px;
+}
+.sign{
+    height: 40px;
+    object-fit: contain;
+    width: 30%;
+    background-color: red ;
+    color: white;
+    border: 0px solid;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 11px;
+}
+.sign:hover{
+    letter-spacing: 3px;
+    transition: all 0.3s;
+}
